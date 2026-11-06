@@ -1,0 +1,12 @@
+{
+  "versionCode": 5,
+  "versionName": "1.4",
+  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
+  "size": "64K",
+  "forceUpdate": false,
+  "changelog": [
+    "Permission popup fixed — fits screen, no scroll, all buttons work",
+    "Language buttons with flags",
+    "In-app update: new version popup with auto-download and install"
+  ]
+}
