@@ -1,12 +1,15 @@
 {
-  "versionCode": 8,
-  "versionName": "1.7",
+  "versionCode": 9,
+  "versionName": "1.8",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "78K",
+  "size": "102K",
   "forceUpdate": false,
   "changelog": [
-    "Top bar fixed — all buttons fit on narrow phones",
-    "In-app update now downloads inside the app and asks to install",
-    "Floating button moved so it never covers the AI Refine button"
+    "Keyboard: Avro phonetic + Bengali letters layouts",
+    "Keyboard: dark Redmi-style UI, key hints, clipboard with pins",
+    "Keyboard: long-press shortcuts (C copy, X cut, V paste, A select all)",
+    "Voice typing: AI Refine toggle (Gemini refines as you speak)",
+    "Floating button: drag to remove, tap for shortcuts menu",
+    "Keyboard settings screen (theme, sound, vibration, preview)"
   ]
 }
