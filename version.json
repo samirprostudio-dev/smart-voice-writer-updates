@@ -1,13 +1,13 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
+  "versionCode": 7,
+  "versionName": "1.6",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "62K",
+  "size": "78K",
   "forceUpdate": false,
   "changelog": [
-    "Firebase connected — admin panel, user sync, ban/suspend control",
-    "API key fix — Gemini 2.5-flash first with auto fallback",
-    "Bengali voice typing fixed — Bengali now in the language list",
-    "Glossy Apple-like UI with fixed buttons"
+    "Voice Keyboard — type by voice directly in WhatsApp & any app",
+    "About page with Samir Pro Studio info, WhatsApp & email support",
+    "Subscription packages — Free, Pro ৳199/mo, Pro Yearly ৳1,999/yr",
+    "WhatsApp support with original logo"
   ]
 }
