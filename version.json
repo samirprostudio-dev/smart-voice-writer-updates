@@ -1,13 +1,13 @@
 {
-  "versionCode": 11,
-  "versionName": "2.0",
+  "versionCode": 12,
+  "versionName": "2.1",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
   "size": "210K",
   "forceUpdate": false,
   "changelog": [
+    "Pay button always visible in the buy sheet",
+    "Official downloaded WhatsApp logo",
     "Buy Pro inside the app with Samir Pro Payments (bKash / Nagad / Rocket / Upay)",
-    "Official Verified By badge + sliding payment-methods banner",
-    "Payment is verified automatically and Pro activates right away",
-    "Keyboard letters fixed and always visible (from v1.9)"
+    "Official Verified By badge + sliding payment-methods banner"
   ]
 }
