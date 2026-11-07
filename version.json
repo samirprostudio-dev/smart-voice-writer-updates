@@ -1,13 +1,1 @@
-{
-  "versionCode": 14,
-  "versionName": "2.3",
-  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "230K",
-  "forceUpdate": false,
-  "changelog": [
-    "Live/AI mode now changes the whole interface — AI mode turns the app violet",
-    "New AI tools: Translate, Summary and Listen (read aloud)",
-    "Recording timer shows speaking speed (WPM), reading time in the editor",
-    "Professional keyboard: suggestions, number row, emoji panel, 7 themes, one-handed mode"
-  ]
-}
+{"apkUrl":"https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk","changelog":["AI Refine now adds proper punctuation — commas, periods, question marks","Keyboard rebuilt Redmi-style: bigger keys, no separate number row — long-press a letter for its number","Voice typing smoother: live partial results and auto-restart so words are never missed","New app icon — SP Smart Writter logo","Keyboard settings: 10 themes, key borders, keypress sound and volume"],"forceUpdate":false,"size":"594K","versionCode":17,"versionName":"2.6"}
