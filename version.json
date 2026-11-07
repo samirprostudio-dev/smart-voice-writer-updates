@@ -1,13 +1,13 @@
 {
-  "versionCode": 12,
-  "versionName": "2.1",
+  "versionCode": 14,
+  "versionName": "2.3",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "210K",
+  "size": "230K",
   "forceUpdate": false,
   "changelog": [
-    "Pay button always visible in the buy sheet",
-    "Official downloaded WhatsApp logo",
-    "Buy Pro inside the app with Samir Pro Payments (bKash / Nagad / Rocket / Upay)",
-    "Official Verified By badge + sliding payment-methods banner"
+    "Live/AI mode now changes the whole interface — AI mode turns the app violet",
+    "New AI tools: Translate, Summary and Listen (read aloud)",
+    "Recording timer shows speaking speed (WPM), reading time in the editor",
+    "Professional keyboard: suggestions, number row, emoji panel, 7 themes, one-handed mode"
   ]
 }
