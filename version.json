@@ -1,15 +1,14 @@
 {
-  "versionCode": 9,
-  "versionName": "1.8",
+  "versionCode": 10,
+  "versionName": "1.9",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "102K",
+  "size": "206K",
   "forceUpdate": false,
   "changelog": [
-    "Keyboard: Avro phonetic + Bengali letters layouts",
-    "Keyboard: dark Redmi-style UI, key hints, clipboard with pins",
-    "Keyboard: long-press shortcuts (C copy, X cut, V paste, A select all)",
-    "Voice typing: AI Refine toggle (Gemini refines as you speak)",
-    "Floating button: drag to remove, tap for shortcuts menu",
-    "Keyboard settings screen (theme, sound, vibration, preview)"
+    "Keyboard: letters now always visible (hint + letter on every key)",
+    "Keyboard: language chip on top (tap to switch English / Avro / Bengali)",
+    "Floating button: shortcuts fan out around it one by one with animation",
+    "App UI: Anek Bangla font for beautiful Bengali text",
+    "Keyboard stays in normal system font"
   ]
 }
