@@ -1,14 +1,13 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
+  "versionCode": 11,
+  "versionName": "2.0",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "206K",
+  "size": "210K",
   "forceUpdate": false,
   "changelog": [
-    "Keyboard: letters now always visible (hint + letter on every key)",
-    "Keyboard: language chip on top (tap to switch English / Avro / Bengali)",
-    "Floating button: shortcuts fan out around it one by one with animation",
-    "App UI: Anek Bangla font for beautiful Bengali text",
-    "Keyboard stays in normal system font"
+    "Buy Pro inside the app with Samir Pro Payments (bKash / Nagad / Rocket / Upay)",
+    "Official Verified By badge + sliding payment-methods banner",
+    "Payment is verified automatically and Pro activates right away",
+    "Keyboard letters fixed and always visible (from v1.9)"
   ]
 }
