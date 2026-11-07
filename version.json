@@ -1,12 +1,13 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
+  "versionCode": 6,
+  "versionName": "1.5",
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "size": "64K",
+  "size": "62K",
   "forceUpdate": false,
   "changelog": [
-    "Permission popup fixed — fits screen, no scroll, all buttons work",
-    "Language buttons with flags",
-    "In-app update: new version popup with auto-download and install"
+    "Firebase connected — admin panel, user sync, ban/suspend control",
+    "API key fix — Gemini 2.5-flash first with auto fallback",
+    "Bengali voice typing fixed — Bengali now in the language list",
+    "Glossy Apple-like UI with fixed buttons"
   ]
 }
