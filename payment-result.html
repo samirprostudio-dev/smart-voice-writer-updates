@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Voice Writer — Payment Result</title>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0a0620;color:#fff;font-family:'Anek Bangla',system-ui,sans-serif;padding:20px;box-sizing:border-box}
+  .box{max-width:420px;width:100%;text-align:center;background:#1c0d45;border-radius:22px;padding:32px 24px;box-shadow:0 22px 50px rgba(0,0,0,.5)}
+  .ico{font-size:52px;line-height:1}
+  h1{font-size:22px;margin:14px 0 8px}
+  p{color:#cdbfe6;line-height:1.7;margin:8px 0}
+  .oid{font-family:ui-monospace,monospace;font-size:13px;background:rgba(255,255,255,.08);border-radius:8px;padding:8px 12px;display:inline-block;margin-top:10px;word-break:break-all}
+  .ok{color:#22c55e}.warn{color:#fbbf24}.bad{color:#f87171}
+</style>
+</head>
+<body>
+<div class="box" id="box">
+  <div class="ico" id="ico">⏳</div>
+  <h1 id="title">পেমেন্ট যাচাই করা হচ্ছে…</h1>
+  <p id="msg">অনুগ্রহ করে অপেক্ষা করুন।</p>
+  <div class="oid" id="oid"></div>
+</div>
+<script>
+(function(){
+  var p = new URLSearchParams(location.search);
+  var status = p.get('status') || '';
+  var orderId = p.get('orderId') || '';
+  var trxId = p.get('trxId') || '';
+  var gatewayId = p.get('gatewayId') || '';
+  // Tell the app (the parent window of the checkout iframe) what happened.
+  try {
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: 'spp-result', status: status,
+        orderId: orderId, trxId: trxId, gatewayId: gatewayId }, '*');
+    }
+  } catch (e) {}
+  var ico = document.getElementById('ico'),
+      title = document.getElementById('title'),
+      msg = document.getElementById('msg'),
+      oid = document.getElementById('oid');
+  if (orderId) oid.textContent = 'Order ID: ' + orderId;
+  if (status === 'success') {
+    ico.textContent = '✅'; title.textContent = 'পেমেন্ট সফল হয়েছে!';
+    title.className = 'ok';
+    msg.textContent = 'আপনার Pro শীঘ্রই চালু হবে। অ্যাপে ফিরে যান।';
+  } else if (status === 'cancelled') {
+    ico.textContent = '✕'; title.textContent = 'পেমেন্ট বাতিল হয়েছে';
+    title.className = 'bad';
+    msg.textContent = 'কোনো টাকা কাটেনি। আবার চেষ্টা করতে অ্যাপে ফিরে যান।';
+  } else if (status === 'review') {
+    ico.textContent = '🔍'; title.textContent = 'পেমেন্ট রিভিউতে গেছে';
+    title.className = 'warn';
+    msg.textContent = 'অ্যাডমিন অনুমোদন দিলে আপনার Pro চালু হবে।';
+  } else if (status === 'expired') {
+    ico.textContent = '⏰'; title.textContent = 'পেমেন্টের সময় শেষ';
+    title.className = 'warn';
+    msg.textContent = '১৫ মিনিটের সময় শেষ হয়ে গেছে। আবার চেষ্টা করতে অ্যাপে ফিরে যান।';
+  } else {
+    ico.textContent = '✅'; title.textContent = 'ধন্যবাদ!';
+    msg.textContent = 'পেমেন্টের ফলাফল যাচাই করা হচ্ছে। অ্যাপে ফিরে যান।';
+  }
+})();
+</script>
+</body>
+</html>
