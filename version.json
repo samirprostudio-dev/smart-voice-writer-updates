@@ -1,1 +1,10 @@
-{"apkUrl":"https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk","changelog":["Undo after Clear-all — clearing all saved notes now shows an Undo button for 5 seconds; tap it and every note comes back in its original order."],"forceUpdate":false,"size":"634K","versionCode":44,"versionName":"5.3"}
+{
+  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
+  "changelog": [
+    "Pin a saved note — tap the pin on any saved note and it stays at the top of your list, even after new dictations; tap again to unpin."
+  ],
+  "forceUpdate": false,
+  "size": "634K",
+  "versionCode": 45,
+  "versionName": "5.4"
+}
