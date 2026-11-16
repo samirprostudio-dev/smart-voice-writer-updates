@@ -1,1 +1,10 @@
-{"apkUrl":"https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk","changelog":["Auto-capitalize while dictating — English dictation came out all-lowercase, so sentence starts are now capitalized automatically (after . ! ? and Bengali danda, plus standalone i becomes I). Bengali text is untouched."],"forceUpdate":false,"size":"642K","versionCode":54,"versionName":"6.3"}
+{
+  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
+  "changelog": [
+    "Find in this note — a magnifier button under the editor opens a find bar: type a word to see how many times it appears, Enter jumps to the first match and selects it, arrows step through the rest, Esc closes. Works for Bengali and English (case-insensitive)."
+  ],
+  "forceUpdate": false,
+  "size": "642K",
+  "versionCode": 55,
+  "versionName": "6.4"
+}
