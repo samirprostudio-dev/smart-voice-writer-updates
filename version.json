@@ -1,10 +1,1 @@
-{
-  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "changelog": [
-    "Pin a saved note — tap the pin on any saved note and it stays at the top of your list, even after new dictations; tap again to unpin."
-  ],
-  "forceUpdate": false,
-  "size": "634K",
-  "versionCode": 45,
-  "versionName": "5.4"
-}
+{"apkUrl":"https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk","changelog":["Select multiple saved notes — tap Select in Recent-writing, pick several notes, then Share or Delete them together; bulk delete confirms with the count and can be undone within 5 seconds."],"forceUpdate":false,"size":"634K","versionCode":46,"versionName":"5.5"}
