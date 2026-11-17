@@ -1,10 +1,10 @@
 {
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
   "changelog": [
-    "Find in this note — a magnifier button under the editor opens a find bar: type a word to see how many times it appears, Enter jumps to the first match and selects it, arrows step through the rest, Esc closes. Works for Bengali and English (case-insensitive)."
+    "Find & Replace in this note — the find bar now has a replace row: type the correction once, Replace fixes the selected match and jumps to the next one, Replace all fixes every match at once and says how many it changed. Works for Bengali and English (case-insensitive); every replace can be undone."
   ],
   "forceUpdate": false,
   "size": "642K",
-  "versionCode": 55,
-  "versionName": "6.4"
+  "versionCode": 56,
+  "versionName": "6.5"
 }
