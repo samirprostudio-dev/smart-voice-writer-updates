@@ -1,10 +1,1 @@
-{
-  "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
-  "changelog": [
-    "Backup now also saves your 'My words' — the backup file carries your personal misheard-to-correct word list too, so it survives a reinstall. Restoring brings the words back as well (an existing word updates its correction, new ones are added), and Undo restores the previous list. Old backups still work."
-  ],
-  "forceUpdate": false,
-  "size": "646K",
-  "versionCode": 59,
-  "versionName": "6.8"
-}
+{"apkUrl":"https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk","changelog":["Backup now also saves your settings — the backup file carries your theme, text size, Listen speed, language, Live/AI mode, spoken punctuation, output and translate languages, notifications, sound and history sort order too, so a reinstall comes back looking and behaving the way you left it. Restoring applies the settings and Undo restores the previous ones. Your API keys are never written into a backup. Old backups still work."],"forceUpdate":false,"size":"650K","versionCode":60,"versionName":"6.9"}
