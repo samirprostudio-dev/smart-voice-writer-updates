@@ -1,10 +1,10 @@
 {
   "apkUrl": "https://samirprostudio-dev.github.io/smart-voice-writer-updates/SmartVoiceWriter.apk",
   "changelog": [
-    "Restore from a backup file — the Restore screen now has a 'Choose backup file' button: pick your saved backup JSON straight from Drive, Downloads or WhatsApp instead of copy-pasting the text. The file is checked the same way as pasted text — notes already saved are skipped, and Undo brings back the list before the restore."
+    "Backup now also saves your 'My words' — the backup file carries your personal misheard-to-correct word list too, so it survives a reinstall. Restoring brings the words back as well (an existing word updates its correction, new ones are added), and Undo restores the previous list. Old backups still work."
   ],
   "forceUpdate": false,
   "size": "646K",
-  "versionCode": 58,
-  "versionName": "6.7"
+  "versionCode": 59,
+  "versionName": "6.8"
 }
